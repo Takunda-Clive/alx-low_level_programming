@@ -1,24 +1,19 @@
-#include<stdio.h>
+#include <stdio.h>
+
 /**
- *main - Prints alphabts from a -z except q & j
- *Return :0
+ * main - prints the alphabt in lower cases,except q and e
+ * Return: Always 0
  */
 int main(void)
 {
-	int alpha;
+	char la;
 
-	for (alpha = 'a'; alpha <= 'z'; alpha++)
+	for (la = 'a'; la <= 'z'; la++)
 	{
-		if (alpha == 'q' || alpha == 'e')
-		{
-			continue;
-		}
-		else
-		{
-			putchar(alpha);
-		}
+		if (la != 'e' && la != 'q')
+			putchar (la);
 	}
-	putchar(10);
-
+	putchar('\n');
 	return (0);
 }
+
