@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
- *main - Prints alphabets from a -z except q & j
+ *main - Prints alphabts from a -z except q & j
  *Return :0
  */
 int main(void)
