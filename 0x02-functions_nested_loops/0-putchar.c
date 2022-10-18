@@ -1,20 +1,14 @@
-#include "main.h"
+#include <stdio.h>
+
 /**
- *main - print _putchar
- *is written by Padre_Taku
- *Return: 0
+ * main - Prints _putchar
+ * Return: 0 for success
  */
 
 int main(void)
 {
-_putchar('_');
-_putchar('p');
-_putchar('u');
-_putchar('t');
-_putchar('c');
-_putchar('h');
-_putchar('a');
-_putchar('r');
-_putchar('\n');
-return (0);
+	printf
+		("_putchar\n");
+	return (0);
 }
+
